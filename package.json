@@ -1,5 +1,6 @@
 {
   "name": "mobius-strip",
+  "homepage": "https://samantha7295.github.io/Radio-Boombox/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,7 +8,8 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@react-three/drei": "^9.120.4",
