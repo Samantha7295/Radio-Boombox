@@ -8,7 +8,7 @@ class CustomRadioBrowserApi extends RadioBrowserApi {
 
   async resolveBaseUrl() {
     // Override to use a hardcoded HTTPS base URL
-    return [{ name: 'de1.api.radio-browser.info' }];
+    return this.baseUrl;
   }
 
   async getStationsByState(state) {
