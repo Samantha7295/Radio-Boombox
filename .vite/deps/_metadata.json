@@ -1,0 +1,94 @@
+{
+  "hash": "9ce90f0f",
+  "configHash": "5dcf891f",
+  "lockfileHash": "f13f9704",
+  "browserHash": "48d0bb2f",
+  "optimized": {
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "eb0b0420",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "c601c27a",
+      "needsInterop": true
+    },
+    "radio-browser-api": {
+      "src": "../../node_modules/radio-browser-api/dist/dev/index.modern.js",
+      "file": "radio-browser-api.js",
+      "fileHash": "3db7de52",
+      "needsInterop": false
+    },
+    "@react-three/fiber": {
+      "src": "../../node_modules/@react-three/fiber/dist/react-three-fiber.esm.js",
+      "file": "@react-three_fiber.js",
+      "fileHash": "1b131eb6",
+      "needsInterop": false
+    },
+    "@react-three/drei": {
+      "src": "../../node_modules/@react-three/drei/index.js",
+      "file": "@react-three_drei.js",
+      "fileHash": "166e0e80",
+      "needsInterop": false
+    },
+    "three/addons/geometries/TextGeometry.js": {
+      "src": "../../node_modules/three/examples/jsm/geometries/TextGeometry.js",
+      "file": "three_addons_geometries_TextGeometry__js.js",
+      "fileHash": "8043b792",
+      "needsInterop": false
+    },
+    "three/examples/jsm/loaders/FontLoader.js": {
+      "src": "../../node_modules/three/examples/jsm/loaders/FontLoader.js",
+      "file": "three_examples_jsm_loaders_FontLoader__js.js",
+      "fileHash": "eb19d48d",
+      "needsInterop": false
+    },
+    "three": {
+      "src": "../../node_modules/three/build/three.module.js",
+      "file": "three.js",
+      "fileHash": "fb9b8687",
+      "needsInterop": false
+    },
+    "three/examples/jsm/Addons.js": {
+      "src": "../../node_modules/three/examples/jsm/Addons.js",
+      "file": "three_examples_jsm_Addons__js.js",
+      "fileHash": "f16a2b35",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "hls-DVRVQDLS": {
+      "file": "hls-DVRVQDLS.js"
+    },
+    "vision_bundle-3QUMERFG": {
+      "file": "vision_bundle-3QUMERFG.js"
+    },
+    "chunk-JF3LBV2R": {
+      "file": "chunk-JF3LBV2R.js"
+    },
+    "chunk-QDTBIX2K": {
+      "file": "chunk-QDTBIX2K.js"
+    },
+    "chunk-SSS5K3BJ": {
+      "file": "chunk-SSS5K3BJ.js"
+    },
+    "chunk-32E4H3EV": {
+      "file": "chunk-32E4H3EV.js"
+    },
+    "chunk-ADHQW5LG": {
+      "file": "chunk-ADHQW5LG.js"
+    },
+    "chunk-DDKOMX4N": {
+      "file": "chunk-DDKOMX4N.js"
+    },
+    "chunk-QG3J32OA": {
+      "file": "chunk-QG3J32OA.js"
+    },
+    "chunk-G3PMV62Z": {
+      "file": "chunk-G3PMV62Z.js"
+    }
+  }
+}
