@@ -1,6 +1,6 @@
 # 🎶 90s Music Player 📻
 
-Welcome to the 90s Music Player! This web-based music player lets you relive the golden era of the 90s by tuning into various 90s radio stations. Enjoy the nostalgic vibes with our interactive boombox design! 🎛️✨
+Welcome to the 90s Music Player! This web-based music player lets you relive the golden era of the 90s by tuning into various 90s radio stations. Enjoy the nostalgic vibes with my interactive boombox design! 🎛️✨
 
 ## Features 🌟
 
