@@ -11,7 +11,7 @@ const RadioChannel = () => {
 
   useEffect(() => {
     const fetchStations = async () => {
-      const api = new RadioBrowserApi('My Radio App');
+      const api = new RadioBrowserApi('My Radio App', true);
 
       try {
         const response = await api.getStationsBy(StationSearchType.byState, 'Ontario');
@@ -21,7 +21,7 @@ const RadioChannel = () => {
 
         setStations(limitedStations.map(station => ({
             name: station.name || 'Unknown Station',
-            url: station.url || ''
+            url: station.url.replace('http://', 'https://') || ''
         })));
         
       } catch (error) {

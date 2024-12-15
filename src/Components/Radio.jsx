@@ -56,7 +56,7 @@ const Radio = ({stations, onLoad}) => {
     //  position={[0.54, 0.2, 0]} -center of front face box side
     useEffect(() => {
         const loader = new FontLoader();
-        loader.load('/fonts/helvetiker_regular.typeface.json', (loadedFont) => {
+        loader.load('./fonts/helvetiker_regular.typeface.json', (loadedFont) => {
           setFont(loadedFont);
         });
     }, []);
@@ -91,7 +91,7 @@ const Radio = ({stations, onLoad}) => {
     }
 
     useEffect(() => {
-        if(stations.length > 0 && audioRef.current){
+        if((stations.length > 0 && audioRef.current) && isOn){
             console.log('Playing Audio', stations[currentStation].url);
             audioRef.current.src = stations[currentStation].url;
             audioRef.current.play().catch(error => {
@@ -365,11 +365,12 @@ const Radio = ({stations, onLoad}) => {
         <lineSegments geometry={new THREE.EdgesGeometry(cas_buttonl)} position={[0.505, -0.28, -0.18]}>
             <lineBasicMaterial color="#ad9a24" />
         </lineSegments>
-
-        
+            
+        {/* -0.8, -0.1, 0.7 */}
         {/* Text for Play Button */}
+        {/* 0.535, 0.42, 0.915 */}
         {font && (
-            <mesh position={[0.535, 0.42, 0.915]} rotation={[0, Math.PI/2, 0]}>
+            <mesh position={[0.535, 0.42, 0.915 ]} rotation={[0, Math.PI/2, 0]}>
                 <textGeometry attach="geometry" args={['PLAY', { font, size: 0.01, height: 0.01 }]} />
                 <meshStandardMaterial attach="material" color="#000000" />
             </mesh>
@@ -402,7 +403,7 @@ const Radio = ({stations, onLoad}) => {
             </mesh>
         )}
 
-{font && (
+        {font && (
             <mesh position={[0.515, 0.4, 0.3]} rotation={[0, Math.PI/2, 0]}>
                 <textGeometry attach="geometry" args={['Radio Channel ', { font, size: 0.015, height: 0.01 }]} />
                 <meshStandardMaterial attach="material" color="#000000" />
@@ -422,16 +423,6 @@ const Radio = ({stations, onLoad}) => {
                 <meshStandardMaterial attach="material" color="#000000" />
             </mesh>
         )}
-
-
-
-
-
-
-       
-        
-
-        
         
         <OrbitControls />
         </group>
