@@ -7,55 +7,55 @@
     "react": {
       "src": "../../node_modules/react/index.js",
       "file": "react.js",
-      "fileHash": "eb0b0420",
+      "fileHash": "548596b7",
       "needsInterop": true
     },
     "react-dom/client": {
       "src": "../../node_modules/react-dom/client.js",
       "file": "react-dom_client.js",
-      "fileHash": "c601c27a",
+      "fileHash": "14756a90",
       "needsInterop": true
     },
     "radio-browser-api": {
       "src": "../../node_modules/radio-browser-api/dist/dev/index.modern.js",
       "file": "radio-browser-api.js",
-      "fileHash": "3db7de52",
+      "fileHash": "eacc0205",
       "needsInterop": false
     },
     "@react-three/fiber": {
       "src": "../../node_modules/@react-three/fiber/dist/react-three-fiber.esm.js",
       "file": "@react-three_fiber.js",
-      "fileHash": "1b131eb6",
+      "fileHash": "cc3052db",
       "needsInterop": false
     },
     "@react-three/drei": {
       "src": "../../node_modules/@react-three/drei/index.js",
       "file": "@react-three_drei.js",
-      "fileHash": "166e0e80",
+      "fileHash": "f570d0ab",
       "needsInterop": false
     },
     "three/addons/geometries/TextGeometry.js": {
       "src": "../../node_modules/three/examples/jsm/geometries/TextGeometry.js",
       "file": "three_addons_geometries_TextGeometry__js.js",
-      "fileHash": "8043b792",
+      "fileHash": "30d57bb1",
       "needsInterop": false
     },
     "three/examples/jsm/loaders/FontLoader.js": {
       "src": "../../node_modules/three/examples/jsm/loaders/FontLoader.js",
       "file": "three_examples_jsm_loaders_FontLoader__js.js",
-      "fileHash": "eb19d48d",
+      "fileHash": "5fd37629",
       "needsInterop": false
     },
     "three": {
       "src": "../../node_modules/three/build/three.module.js",
       "file": "three.js",
-      "fileHash": "fb9b8687",
+      "fileHash": "8b819e2d",
       "needsInterop": false
     },
     "three/examples/jsm/Addons.js": {
       "src": "../../node_modules/three/examples/jsm/Addons.js",
       "file": "three_examples_jsm_Addons__js.js",
-      "fileHash": "f16a2b35",
+      "fileHash": "7da08307",
       "needsInterop": false
     }
   },

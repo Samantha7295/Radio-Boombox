@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
-import { RadioBrowserApi, StationSearchType } from 'radio-browser-api'
-// import { CustomRadioBrowserApi, StationSearchType } from './CustomRadioBrowserApi';
+// import { RadioBrowserApi, StationSearchType } from 'radio-browser-api'
+import { CustomRadioBrowserApi, StationSearchType } from './CustomRadioBrowserApi';
 import Radio from './Radio'
 import EndBar from './EndBar'
 
@@ -12,10 +12,10 @@ const RadioChannel = () => {
 
   useEffect(() => {
     const fetchStations = async () => {
-      const api = new RadioBrowserApi('My Radio App', true);
+      const api = new CustomRadioBrowserApi('My Radio App', true);
 
       try {
-        const response = await api.getStationsBy(StationSearchType.byState, 'Ontario');
+        const response = await api.getStationsByState('Ontario');
         
         const limitedStations = response.slice(0, 3);
         console.log('Fetched stations:', limitedStations);
