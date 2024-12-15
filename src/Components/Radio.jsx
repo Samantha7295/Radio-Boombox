@@ -91,7 +91,7 @@ const Radio = ({stations, onLoad}) => {
     }
 
     useEffect(() => {
-        if((stations.length > 0 && audioRef.current) && isOn){
+        if((stations.length > 0 && audioRef.current) && setIsOn){
             console.log('Playing Audio', stations[currentStation].url);
             audioRef.current.src = stations[currentStation].url;
             audioRef.current.play().catch(error => {

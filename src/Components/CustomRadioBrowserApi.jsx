@@ -21,3 +21,14 @@ class CustomRadioBrowserApi extends RadioBrowserApi {
 }
 
 export { CustomRadioBrowserApi, StationSearchType };
+
+// src/CustomRadioApi.js
+// const BASE_URL = 'https://de1.api.radio-browser.info/json';
+
+// export const getStationsByState = async (state) => {
+//   const response = await fetch(`${BASE_URL}/stations/bystate/${state}`);
+//   if (!response.ok) {
+//     throw new Error(`Error fetching stations: ${response.statusText}`);
+//   }
+//   return response.json();
+// };
