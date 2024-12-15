@@ -1,8 +1,19 @@
-# React + Vite
+# 🎶 90s Music Player 📻
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the 90s Music Player! This web-based music player lets you relive the golden era of the 90s by tuning into various 90s radio stations. Enjoy the nostalgic vibes with my interactive boombox design! 🎛️✨
 
-Currently, two official plugins are available:
+## Features 🌟
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🎵 Listen to various 90s radio stations
+- ⏯️ Play and pause functionality
+- 📟 Visually appealing boombox design
+- 🎚️ Interactive boombox with zoom, spin, and move capabilities
+- 📱 Responsive design
+
+## Technologies Used 💻
+
+- ⚛️ React
+- 🌐 Three.js
+- 🎨 Tailwind CSS
+
+Enjoy the music and have fun! 🎉
