@@ -1,0 +1,10 @@
+import { RadioBrowserApi, StationSearchType } from 'radio-browser-api';
+
+class CustomRadioBrowserApi extends RadioBrowserApi {
+  constructor(appName, secure = true) {
+    super(appName, secure);
+    this.baseUrl = 'https://all.api.radio-browser.info/json';
+  }
+}
+
+export { CustomRadioBrowserApi, StationSearchType };
